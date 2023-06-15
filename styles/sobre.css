@@ -1,0 +1,37 @@
+:root {
+    --Corneutra: #ffff;
+    --CorPrincipal: #146057;
+    --CorPrincipalEscura: #16544d;
+    --CorSecundaria: #fe8340;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_container {
+    margin: 3rem;
+    text-align: center;
+    max-width: 700px;
+}
+
+.sobre_container h1 {
+    color: var(--CorPrincipal);
+    margin-bottom: 30px;
+}
+
+.sobre_container img {
+    width: 100%;
+    height: auto;
+}
+
+.sobre_texto {
+    margin: 3rem 0;
+}
+
+.sobre_texto p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}

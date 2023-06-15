@@ -1,0 +1,75 @@
+:root {
+    --CorPrincipal: #146057;
+    --CorSecundaria: #fe8340;
+}
+
+@media (max-width: 960px) {
+    .info:nth-child(1) {
+        padding: 0px;
+        border: none;
+        
+    }
+    .info:nth-child(3) {
+        padding: 0px;
+        border: none;
+        
+    }
+
+}
+
+@media (max-width: 960px) {
+    .card {
+        height: 280px;
+    }
+}
+
+@media (max-width: 660px){
+    #btn_mobile {
+        z-index: 1000;
+        display: block;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+    .menu {
+        position: fixed;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background-color: var(--CorPrincipal);
+        z-index: 1000;
+        height: 0px;
+        transition: 0.6s;
+        display: block;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active .menu {
+        height: calc(100vh - 70px);
+        overflow-y: auto;
+        visibility: visible;
+        
+    }
+
+    .menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+        
+    }
+}
+
+
+@media screen and (max-width: 968px) {
+    .container_footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .container_footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,57 @@
+:root {
+    --Corneutra: #ffff;
+    --CorPrincipal: #146057;
+    --Corprincipalescura: #164a44;
+    --CorSecundaria: #fe8340;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.form_login {
+    /* background-color: aqua; */
+    border-radius: 20px;
+    padding: 30px;
+    margin: 8rem 0;
+    font-size: 25px;
+}
+
+.form_login form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+}
+
+.nome {
+    flex: 1 0 130px;
+}
+
+.email {
+    flex: 1 0 130px;
+}
+
+
+.form_login form input{
+    height: 100%;
+    padding: 4px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.form_login form input::placeholder {
+    color: black;
+}
+
+.form_login form input:hover {
+    border: 3px solid black;
+}
+
+
+.form_login button {
+    cursor: pointer;
+    flex: 1 0 40px;
+}
