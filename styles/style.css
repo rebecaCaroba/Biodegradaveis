@@ -10,8 +10,7 @@
 :root {
     --Corneutra: #ffff;
     --CorPrincipal: #146057;
-    --CorPrincipalEscura: #164a44;
-    --CorSecundaria: #fe8340;
+    --CorSecundaria: #143d38;
 }
 
 header {
@@ -259,7 +258,8 @@ footer {
     width: 100%;
     background-color: transparent;
     border: 1px solid #ffff;
-    
+    color: #fff;
+    outline: none;
 }
 
 .footer_input input::placeholder {
@@ -296,11 +296,17 @@ footer {
 
 /*-------*/
 
+#falar {
+    cursor: pointer;
+    color: var(--CorPrincipal);
+    font-size: 30px;
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+}
+
 .active {
     display: block;
 }
 
-.hidden {
-    overflow-y: hidden;
-}
 
